@@ -1,0 +1,501 @@
+/!-- image--/
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Image</h2>
+<img alt="Trulli" height="333" src="pic_trulli.jpg" width="500">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Image</h2>
+<img alt="Girl in a jacket" height="600" src="img_girl.jpg" width="500">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Image</h2>
+<img alt="Flowers in Chania" height="345" src="img_chania.jpg" width="460">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Alternative text</h2>
+
+<p>The alt attribute should reflect the image content, so users who cannot see the image gets an understanding of what the image contains:</p>
+
+<img alt="Flowers in Chania" height="345" src="img_chania.jpg" width="460">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Alternative text</h2>
+
+<p>The alt attribute should reflect the image content, so users who cannot see the image gets an understanding of what the image contains:</p>
+
+<img alt="Flowers in Chania" height="345" src="img_chania.jpg" width="460">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>If a browser cannot find the image, it will display the alternate text:</p>
+
+<img alt="Flowers in Chania" src="wrongname.gif">
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Size</h2>
+
+<p>Here we use the style attribute to specify the width and height of an image:</p>
+
+<img alt="Girl in a jacket" src="img_girl.jpg" style="width:500px;height:600px;">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Size</h2>
+
+<p>Here we specify the width and height of an image with the width and height attributes:</p>
+
+<img alt="Girl in a jacket" height="600" src="img_girl.jpg" width="500">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* This style sets the width of all images to 100%: */
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Width/Height Attributes or Style?</h2>
+
+<p>The first image uses the width attribute (set to 128 pixels), but the style in the head section overrides it, and sets the width to 100%.</p>
+
+<img alt="HTML5 Icon" height="128" src="html5.gif" width="128">
+
+<p>The second image uses the style attribute to set the width to 128 pixels, this will not be overridden by the style in the head section:</p>
+
+<img alt="HTML5 Icon" src="html5.gif" style="width:128px;height:128px;">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Images in Another Folder</h2>
+<p>It is common to store images in a sub-folder. You must then include the folder name in the src attribute:</p>
+
+<img alt="HTML5 Icon" src="/images/html5.gif" style="width:128px;height:128px;">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Images on Another Server</h2>
+
+<img alt="W3Schools.com" src="https://www.w3schools.com/images/w3schools_green.jpg" style="width:104px;height:142px;">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Animated Images</h2>
+
+<p>HTML allows moving images:</p>
+
+<img alt="Computer man" src="programming.gif" style="width:48px;height:48px;">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image as a Link</h2>
+
+<p>The image is a link. You can click on it.</p>
+
+<a href="default.asp">
+  <img alt="HTML tutorial" src="smiley.gif" style="width:42px;height:42px;">
+</a>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Floating Images</h2>
+<p><strong>Float the image to the right:</strong></p>
+
+<p>
+  <img alt="Smiley face" src="smiley.gif" style="float:right;width:42px;height:42px;">
+  A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
+
+<p><strong>Float the image to the left:</strong></p>
+<p>
+  <img alt="Smiley face" src="smiley.gif" style="float:left;width:42px;height:42px;">
+  A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
+
+</body>
+</html>
+
+<!--Image Maps-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img alt="Workplace" height="379" src="workplace.jpg" usemap="#workmap" width="400">
+
+<map name="workmap">
+  <area alt="Computer" coords="34,44,270,350" href="computer.htm" shape="rect">
+  <area alt="Phone" coords="290,172,333,250" href="phone.htm" shape="rect">
+  <area alt="Cup of coffee" coords="337,300,44" href="coffee.htm" shape="circle">
+</map>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the computer to go to a new page and read more about the topic:</p>
+
+<img alt="Workplace" height="379" src="workplace.jpg" usemap="#workmap" width="400">
+
+<map name="workmap">
+  <area alt="Computer" coords="34,44,270,350" href="computer.htm" shape="rect">
+</map>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img alt="Workplace" height="379" src="workplace.jpg" usemap="#workmap" width="400">
+
+<map name="workmap">
+  <area alt="Cup of coffee" coords="337,300,44" href="coffee.htm" shape="circle">
+</map>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the croissant to go to a new page and read more about the topic:</p>
+
+<img alt="French Food" height="675" src="frenchfood.jpg" usemap="#foodmap" width="450">
+
+<map name="foodmap">
+  <area alt="Croissant" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm" shape="poly">
+</map>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+
+<p>Click on the cup of coffee to execute a JavaScript function:</p>
+
+<img alt="Workplace" height="379" src="workplace.jpg" usemap="#workmap" width="400">
+
+<map name="workmap">
+  <area coords="337,300,44" href="coffee.htm" onclick="myFunction()" shape="circle">
+</map>
+
+<script>
+  function myFunction() {
+    alert("You clicked the coffee cup!");
+  }
+</script>
+
+</body>
+</html>
+
+<!--background images-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Background Image</h2>
+
+<p>A background image for a div element:</p>
+
+<div style="background-image: url('img_girl.jpg');">
+  You can specify background images<br>
+  for any visible HTML element.<br>
+  In this example, the background image<br>
+  is specified for a div element.<br>
+  By default, the background-image<br>
+  will repeat itself in the direction(s)<br>
+  where it is smaller than the element<br>
+  where it is specified. (Try resizing the<br>
+  browser window to see how the<br>
+  background image behaves.
+</div>
+
+<p>A background image for a p element:</p>
+
+<p style="background-image: url('img_girl.jpg');">
+  You can specify background images<br>
+  for any visible HTML element.<br>
+  In this example, the background image<br>
+  is specified for a p element.<br>
+  By default, the background-image<br>
+  will repeat itself in the direction(s)<br>
+  where it is smaller than the element<br>
+  where it is specified. (Try resizing the<br>
+  browser window to see how the<br>
+  background image behaves.
+</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div {
+      background-image: url('img_girl.jpg');
+    }
+  </style>
+</head>
+<body>
+
+<h2>Background Image</h2>
+
+<div>
+  You can specify background images<br>
+  for any visible HTML element.<br>
+  In this example, the background image<br>
+  is specified for a div element.<br>
+  By default, the background-image<br>
+  will repeat itself in the direction(s)<br>
+  where it is smaller than the element<br>
+  where it is specified. (Try resizing the<br>
+  browser window to see how the<br>
+  background image behaves.
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url('img_girl.jpg');
+    }
+  </style>
+</head>
+<body>
+
+<h2>Background Image</h2>
+
+<p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url('example_img_girl.jpg');
+    }
+  </style>
+</head>
+<body>
+
+<h2>Background Repeat</h2>
+
+<p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url('example_img_girl.jpg');
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Background No Repeat</h2>
+
+<p>You can avoid the image from being repeated by setting the background-repeat property to "no-repeat".</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url('img_girl.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Background Cover</h2>
+
+<p>Set the background-size property to "cover" and the background image will cover the entire element, in this case the body element.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url('img_girl.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Background Stretch</h2>
+
+<p>Set the background-size property to "100% 100%" and the background image will be stretched to cover the entire element, in this case the body element.</p>
+
+</body>
+</html>
+
+<!--picture element-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+</head>
+<body>
+
+<h2>The picture Element</h2>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg" style="width:auto;">
+</picture>
+
+<p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+  The browser looks for the first source element where the media query matches the user's current viewport width,
+  and fetches the image specified in the srcset attribute.</p>
+
+<p>The img element is required as the last child tag of the picture declaration block.
+  The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
+</p>
+
+<p><strong>Note:</strong> The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+</head>
+<body>
+
+<h2>The picture Element</h2>
+
+<picture>
+  <source srcset="img_avatar.png">
+  <source srcset="img_girl.jpg">
+  <img alt="Beatles" src="img_beatles.gif" style="width:auto;">
+</picture>
+
+<p>The picture element can be used when the image format is not supported by all devices.</p>
+
+<p>The device will use the first image format it supports, and ignore the rest of the images.</p>
+
+</body>
+</html>
