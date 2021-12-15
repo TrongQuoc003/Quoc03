@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Đăng ký</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/register.js"></script>
+
+</head>
+<body>
+<header>
+  <div class="logo"><img src="../img/img.jpg" height="60" width="90"/>
+
+</header>
+<fieldset>
+  <legend>Đăng ký thành viên</legend>
+  <span class="error-msg" id="total-msg"></span>
+  <form class="form-group" name="member">
+    <div class="form-group">
+      <label>Họ và tên: </label>
+      <input class="form-control normal-input" name="name" placeholder="Họ và tên" type="text">
+      <span class="error-msg"></span>
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input class="form-control normal-input" name="email" type="email">
+      <span class="error-msg"></span>
+    </div>
+    <div class="form-group">
+      <label>Phone </label>
+      <input class="form-control normal-input" name="phone" placeholder="Điện thoại" type="text">
+      <span class="error-msg"></span>
+    </div>
+    <div class="form-group">
+      <label>Giới tính</label>
+      <label>
+        <input class="form-control" name="gender" type="radio" value="Nam"> Nam
+      </label>
+      <label>
+        <input class="form-control" name="gender" type="radio" value="Nữ"> Nữ
+      </label>
+    </div>
+    <p>Sở thích</p>
+    <div class="form-group">
+      <input id="sothich1" name="sothich1" type="checkbox" value="Thể thao">
+      <label for="sothich1"> Thể thao</label><br>
+      <input id="sothich2" name="sothich2" type="checkbox" value="Phim ảnh">
+      <label for="sothich2"> Phim ảnh</label><br>
+      <input id="sothich3" name="sothich3" type="checkbox" value="Đọc sách">
+      <label for="sothich3"> Đọc sách</label><br>
+      <input id="sothich4" name="sothich4" type="checkbox" value="Âm nhạc">
+      <label for="sothich4"> Âm nhạc</label><br>
+      <input id="sothich5" name="sothich5" type="checkbox" value="Khác">
+      <label for="sothich5"> Khác</label><br><br>
+    </div>
+
+    <div class="form-group>
+            <label for=">Giới thiệu bản thân</label>
+      <textarea  cols="50" name="introduce" rows="4">
+            </textarea>
+    </div>
+    <div class="form-group">
+      <label>&nbsp;</label>
+      <input class="form-control" id="btnSubmit" name="submit" type="button" value="Dang ky">
+      <input class="form-control" name="reset" type="reset" value="Lam lai">
+
+    </div>
+  </form>
+</fieldset>
+
+<footer>
+  <p>Tên: Lương Trọng Quốc</p>
+  <p>Email: ducdtth2108030@fpt.edu.vn</p>
+  <p>Class: T2108A1</p>
+</footer>
+</body>
+</html>
